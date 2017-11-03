@@ -8,5 +8,10 @@ def shout(word)
 end
 
 def repeat(word, number)
-   ("#{word} " * number).strip
- end
+  ("#{word} " * number).strip
+end
+
+def start_of_word(word,number)
+  binding.pry
+  word.chars.first(number).join
+end
