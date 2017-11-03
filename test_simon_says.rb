@@ -28,11 +28,11 @@ class TestSimonSays < MiniTest::Test
   end
 
   def test_start_of_word_returns_first_two_letters
-    skip assert_equal "Bo", start_of_word("Bob", 2)
+    assert_equal "Bo", start_of_word("Bob", 2)
   end
 
   def test_first_word
-    skip assert_equal "Hello", first_word("Hello World")
+    assert_equal "Hello", first_word("Hello World")
   end
 
 end

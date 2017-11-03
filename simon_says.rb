@@ -12,6 +12,9 @@ def repeat(word, number)
 end
 
 def start_of_word(word,number)
-  binding.pry
   word.chars.first(number).join
+end
+
+def first_word(word)
+  word.split.first
 end
